@@ -608,6 +608,10 @@ uk:
     relations_autocomplete:
       placeholder: "Введіть для пошуку"
       parent_placeholder: "Виберіть нові джерела або натисніть клавішу Escape, щоб скасувати."
+    autocompleter:
+      placeholder: "Введіть для пошуку"
+      notFoundText: "No items found"
+      typeToSearchText: "Введіть для пошуку"
     repositories:
       select_tag: 'Виберіть мітку'
       select_branch: 'Виберіть гілку'
@@ -925,6 +929,7 @@ uk:
     notice_successful_create: "Створення успішно завершене."
     notice_successful_delete: "Видалення успішно завершене."
     notice_successful_update: "Успішно оновлено."
+    notice_job_started: "job started."
     notice_bad_request: "Неправильний Запит."
     relations:
       empty: Немає жодних зв'язків
@@ -995,6 +1000,8 @@ uk:
       project:
         label: 'Проект'
         required: 'Please select a project'
+        lacking_permission: 'Please select a different project since you lack permissions to assign users to the currently selected.'
+        lacking_permission_info: 'You lack the permission to assign users to the project you are currently in. You need to select a different one.'
         next_button: 'Далі'
         no_results: 'No projects were found'
         no_invite_rights: 'You are not allowed to invite members to this project'

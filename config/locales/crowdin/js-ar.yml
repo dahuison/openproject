@@ -608,6 +608,10 @@ ar:
     relations_autocomplete:
       placeholder: "Type to search"
       parent_placeholder: "Choose new parent or press escape to cancel."
+    autocompleter:
+      placeholder: "Type to search"
+      notFoundText: "No items found"
+      typeToSearchText: "Type to search"
     repositories:
       select_tag: 'حدد العلامة'
       select_branch: 'اختر فرع'
@@ -925,6 +929,7 @@ ar:
     notice_successful_create: "إنشاء ناجح."
     notice_successful_delete: "حذف ناجح."
     notice_successful_update: "تحديث ناجح."
+    notice_job_started: "job started."
     notice_bad_request: "طلب غير صحيح."
     relations:
       empty: لا يوجد علاقات
@@ -999,6 +1004,8 @@ ar:
       project:
         label: 'مشروع'
         required: 'Please select a project'
+        lacking_permission: 'Please select a different project since you lack permissions to assign users to the currently selected.'
+        lacking_permission_info: 'You lack the permission to assign users to the project you are currently in. You need to select a different one.'
         next_button: 'التالي'
         no_results: 'No projects were found'
         no_invite_rights: 'You are not allowed to invite members to this project'

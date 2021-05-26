@@ -608,6 +608,10 @@ zh-CN:
     relations_autocomplete:
       placeholder: "键入内容进行搜索"
       parent_placeholder: "选择新父级，或按 Escape 键来取消。"
+    autocompleter:
+      placeholder: "键入内容进行搜索"
+      notFoundText: "No items found"
+      typeToSearchText: "键入内容进行搜索"
     repositories:
       select_tag: '选择标签'
       select_branch: '选择分支'
@@ -925,6 +929,7 @@ zh-CN:
     notice_successful_create: "成功创建。"
     notice_successful_delete: "成功删除。"
     notice_successful_update: "成功更新。"
+    notice_job_started: "job started."
     notice_bad_request: "错误的请求。"
     relations:
       empty: 不存在关联
@@ -989,6 +994,8 @@ zh-CN:
       project:
         label: '项目'
         required: 'Please select a project'
+        lacking_permission: 'Please select a different project since you lack permissions to assign users to the currently selected.'
+        lacking_permission_info: 'You lack the permission to assign users to the project you are currently in. You need to select a different one.'
         next_button: '下一个'
         no_results: 'No projects were found'
         no_invite_rights: 'You are not allowed to invite members to this project'
